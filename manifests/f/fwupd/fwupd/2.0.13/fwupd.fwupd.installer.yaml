@@ -1,0 +1,26 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: fwupd.fwupd
+PackageVersion: 2.0.13
+InstallerLocale: en-US
+InstallerType: wix
+Scope: machine
+Commands:
+  - fwupd
+  - fwupdmgr
+  - fwupdtool
+ReleaseDate: 2025-07-25
+AppsAndFeaturesEntries:
+- ProductCode: '{76493109-E6AB-5C48-940D-49544A688596}'
+  UpgradeCode: '{76493109-E6AB-5C48-940D-49544A688597}'
+  DisplayName: fwupd 2.0.13 (64-bit)
+  DisplayVersion: 2.0.13
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/FrameworkComputer/fwupd/releases/download/test/fwupd-2.0.13-setup-x86_64.msi
+  InstallerSha256: E8C83C160C78E920387837244CB7E75CC46F1C1FA2E5F3905CA0B52CA3BFBD02
+  ProductCode: '{76493109-E6AB-5C48-940D-49544A688596}'
+  UpgradeBehavior: uninstallPrevious
+ManifestType: installer
+ManifestVersion: 1.9.0
