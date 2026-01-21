@@ -1,0 +1,12 @@
+# Created using wingetcreate 1.10.3.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: fwupd.fwupd
+PackageVersion: 2.0.19
+PackageLocale: en-US
+Publisher: the fwupd team
+PackageName: fwupd
+License: LGPL 2.1
+ShortDescription: A system daemon to allow session software to update firmware
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0

@@ -1,0 +1,18 @@
+# Created using wingetcreate 1.10.3.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: fwupd.fwupd
+PackageVersion: 2.0.19
+InstallerLocale: en-US
+InstallerType: msi
+ProductCode: '{76493109-E6AB-5C48-940D-49544A688596}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/fwupd/fwupd/releases/download/2.0.19/fwupd-2.0.19-setup-x86_64.msi
+  InstallerSha256: 31BDEBA15073466D12988E6B50622E912A4B3A3CDDC72CFF176D437AFE7AAB19
+ManifestType: installer
+ManifestVersion: 1.10.0
+Commands:
+  - fwupd
+  - fwupdtool
+  - fwupdmgr
